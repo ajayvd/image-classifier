@@ -22,12 +22,28 @@ Object Detection Model using Resnet50
 - Data set generator contains two python files , which can be used as an enhancement for the project 
 
 
+## File structure
+
+
+
+```bash
+Data set folder includes the training and test samples
+static and templates folder contain css,html and the index.html 
+modelresnet50.h5 is the saved model after the training and testing part is done
+requirement.txt is being used for deployment in heroku
+image classification is the main python file where the entire code is written
+app.py is mapping everything 
+```
 
 Setup Backend
 
 The git link [here](https://github.com/ajayvd/image-classifier.git)
 
-Clone the repo above and run your backend
+Clone the repo for further check
+
+
+
+
 
 
 
