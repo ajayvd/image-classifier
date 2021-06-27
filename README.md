@@ -19,6 +19,8 @@ Object Detection Model using Resnet50
 
 - Have deployed on heroku , unfortunately heroku supports 500 mb for hosting 
 
+- Data set generator contains two python files , which can be used as an enhancement for the project 
+
 
 
 Setup Backend
