@@ -26,7 +26,7 @@ def getImagesWithID(path):
 
   for i in imagepath: #just loop over all the images  #:
     faceimg=Image.open(imagepath).convert('L')  #convert into gray scale , its an python iamge librra 
-                                          #import PIL
+                                          #import pil
     #convert into numpy array
 
     facenp=np.array(faceimg,'uint8')  #conversion
