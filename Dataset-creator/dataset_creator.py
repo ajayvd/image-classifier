@@ -30,7 +30,7 @@ while (True):
   cv2.imshow("Face",img);
   cv2.waitKey(1);
 
-  if i>100:
+  if i>80:
     break 
 cam.release()
 cv2.destroyAllWindows()
